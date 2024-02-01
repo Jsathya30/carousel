@@ -1,0 +1,60 @@
+.carousel-item img{
+	border:6px solid rgba(255, 255, 255, 0.15);
+	width:120px;
+	border-radius:50%;
+	
+	position:relative;
+	left:45%;
+	top:20%;
+	
+}
+.carousel-item{
+	padding:100px 0 30px 0;
+}
+.carousel-caption p{
+	font-size:18px;
+	color:rgb(255,255,255);
+}
+.carousel-caption h3{
+	font-size:22px;
+	font-weight:700;
+	color:rgb(255,255,255);
+	padding-top:10px;
+}
+.carousel-caption h5{
+	font-size:15px;
+	color:rgb(255,255,255);
+	padding-bottom:20px;
+	
+}
+
+#carousel-sec{
+	height:80vh;
+	background:url(../images/testimonials-bg.jpg);
+	background-position:bottom;
+	background-attachment:fixed;
+	background-size:cover;
+}
+.container-fluid{
+	height:80vh;
+	background-color:rgba(0,0,0,0.7);
+}
+.carousel-caption{
+	position:relative;
+	top:100%;
+	left:0;
+	
+}
+.carousel-caption i{
+	font-size:19px;
+	color:rgba(255, 255, 255,0.8);
+}
+.carousel-indicators [data-bs-target]{
+	height:13px;
+	width:13px;
+	border-radius:50%;
+	background-color:#0000ff;
+} 
+
+
+
